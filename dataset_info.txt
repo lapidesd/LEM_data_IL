@@ -1,0 +1,91 @@
+##########################################################################################
+#  About this file:
+#  The dataset described in this info file was downloaded in part or in whole
+#  from the Illinois Data Bank.
+#  This info file contains citation information, a permanent digital object identifier (DOI),
+#  and a listing of all data files available for this dataset.
+#  Keep this info file so in the future you'll know where you obtained
+#  the data files you've just downloaded.
+##########################################################################################
+
+[ DOI: ] 10.13012/B2IDB-3968226_V3
+[ Title: ] Dataset for "The necessity of lateral channel migration in the evolution of non-dendritic drainage networks to full dendricity and the persistence of dynamic networks"
+[ Creators: ] Kwang, Jeffrey S.; Langston, Abigail L.; Parker, Gary
+[ Publisher: ] University of Illinois at Urbana-Champaign
+[ Publication Year: ] 2021
+
+[ Citation: ] Kwang, Jeffrey S.; Langston, Abigail L.; Parker, Gary (2021): Dataset for "The necessity of lateral channel migration in the evolution of non-dendritic drainage networks to full dendricity and the persistence of dynamic networks". University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-3968226_V3
+
+[ Description: ] *This is the third version of the dataset*. New changes in this 3rd version:
+
+<i>1.replaces simulations where the initial condition consists of a sinusoidal channel with topographic perturbations with simulations where the initial condition consists of a sinusoidal channel without topographic perturbations. These simulations better illustrate the transformation of a nondendritic network into a dendritic one.
+2. contains two additional simulations showing how total domain size affects the landscape's dynamism.
+3. changes dataset title to reflect the publication's title</i>
+
+This dataset contains data from 18 simulations using a landscape evolution model. A landscape evolution model simulates how uplift and rock incision shape the Earth's (or other planets) surface. To date, most landscape evolution models exhibit "extreme memory" (paper: https://doi.org/10.1029/2019GL083305 and dataset: https://doi.org/10.13012/B2IDB-4484338_V1). Extreme memory in landscape evolution models causes initial conditions to be unrealistically preserved.
+
+This dataset contains simulations from a new landscape evolution model that incorporates a sub-model that allows bedrock channels to erode laterally. With this addition, the landscapes no longer exhibit extreme memory. Initial conditions are erased over time, and the landscapes tend towards a dynamic steady state instead of a static one. The model with lateral erosion is named LEM-wLE (Landscape Evolution Model with Lateral Erosion) and the model without lateral erosion is named LEM-woLE (Landscape Evolution Model without Lateral Erosion).
+
+There are 16 folders in total. Here are the descriptions:
+
+<i>>LEM-woLE_simulations:</i> This folder contains simulations using LEM-woLE. Inside the folder are 5 subfolders containing 100 elevation rasters, 100 drainage area rasters, and 100 plots showing the slope-area relationship. Elevation depicts the height of the landscape, and drainage area represents a contributing area that is upslope. Each folder corresponds to a different initial condition. Driver files and code for these simulations can be found at https://github.com/jeffskwang/LEM-wLE.
+
+<i>>MOVIE_S#_data:</i> There are 13  data folders that contain raster data for 13 simulations using LEM-wLE. Inside each folder are 1000 elevation rasters, 1000 drainage area rasters, and 1000 plots showing the slope-area relationship. Driver files and code for these simulations can be found at https://github.com/jeffskwang/LEM-wLE.
+
+<i>>movies_mp4_format:</i> For each data folder there are 3 movies generated that show elevation (a), drainage area (b), and erosion rates (c). These files are formatted in the mp4 format and are best viewed using VLC media player (https://www.videolan.org/vlc/index.html).
+
+<i>>movies_wmv_format:</i> This folder contains the same movies as the "movies_mp4_format" folder, but they are in a wmv format. These movies can be viewed using Windows media player or other Windows platform movie software.
+
+Here are the captions for the 13 movies:
+Movie S1. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Sinusoidal channel without randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 1.
+
+Movie S2. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Inclined with small, randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 1. 
+
+Movie S3. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Inclined with large, randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 1. 
+
+Movie S4. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: V-shaped valley with randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 1. 
+
+Movie S5. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Sinusoidal channel with randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 1. 
+
+Movie S6. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Sinusoidal channel without randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 0.25. 
+
+Movie S7. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Sinusoidal channel without randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 0.5. 
+
+Movie S8. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Sinusoidal channel without randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 0.75. 
+
+Movie S9. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Flat with randomized perturbations. Boundary Condition: 1 open boundary at the bottom of the domain, and 3 closed boundaries elsewhere. KL/KV = 1. 
+
+Movie S10. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Flat with randomized perturbations. Boundary Condition: 2 open boundaries at the top and bottom of the domain, and 2 closed boundaries on the left and right sides. KL/KV = 1. 
+
+Movie S11. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Flat with randomized perturbations. Boundary Condition: 4 open boundaries. KL/KV = 1.
+
+Movie S12. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Flat with randomized perturbations. Boundary Condition: 4 open boundaries. KL/KV = 1. Compared to Movie S11, the length of the domain is 50% shorter, decreasing the total domain area.
+
+Movie S13. 200 MYR (1,000 RUs eroded) simulation showing elevation (a), logarithm of drainage area (b), and change in elevation (c). Initial Condition: Flat with randomized perturbations. Boundary Condition: 4 open boundaries. KL/KV = 1. Compared to Movie S11, the length of the domain is 50% longer, increasing the total domain area.
+
+The associated publication for this dataset has not yet been published, and we will update this description with a link when it is.
+
+
+[ Keywords: ] landscape evolution; drainage networks; lateral migration; geomorphology
+[ License: ] CC0 - https://creativecommons.org/publicdomain/zero/1.0/
+[ Corresponding Creator: ] Jeffrey S. Kwang
+[ Funder: ] U.S. National Science Foundation (NSF)- [ Grant: ] DGE-1144245[ Funder: ] U.S. National Science Foundation (NSF)- [ Grant: ] EAR-1427262[ Funder: ] U.S. National Science Foundation (NSF)- [ Grant: ] OIA-1833025
+[ Related Dataset: ] Kwang, Jeffrey; Parker, Gary (2018): Dataset: Ultra-sensitivity of Numerical Landscape Evolution Models to their Initial Conditions. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-4484338_V1 , https://doi.org/10.13012/B2IDB-4484338_V1 [ Related Article: ] Kwang, J. S., & Parker, G. ( 2019). Extreme memory of initial conditions in numerical landscape evolution models. Geophysical Research Letters, 46, 6563– 6573. https://doi.org/10.1029/2019GL083305, https://doi.org/10.1029/2019GL083305[ Related Code: ] Driver files and code for simulations:https://github.com/jeffskwang/LEM-wLE, https://github.com/jeffskwang/LEM-wLE
+[ Files (17): ] 
+. LEM-woLE_simulations.zip, 57.8 MB
+. MOVIE_S10_data.zip, 164 MB
+. MOVIE_S11_data.zip, 156 MB
+. MOVIE_S12_data.zip, 60.1 MB
+. MOVIE_S13_data.zip, 304 MB
+. MOVIE_S1_data.zip, 180 MB
+. MOVIE_S2_data.zip, 174 MB
+. MOVIE_S3_data.zip, 179 MB
+. MOVIE_S4_data.zip, 179 MB
+. MOVIE_S5_data.zip, 179 MB
+. MOVIE_S6_data.zip, 150 MB
+. MOVIE_S7_data.zip, 163 MB
+. MOVIE_S8_data.zip, 169 MB
+. MOVIE_S9_data.zip, 178 MB
+. data_readme.txt, 6.06 KB
+. movies_mp4_format.zip, 2.61 GB
+. movies_wmv_format.zip, 2.22 GB
